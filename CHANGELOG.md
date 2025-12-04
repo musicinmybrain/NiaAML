@@ -1,5 +1,48 @@
 # Changelog
 
+## [2.2.0](https://github.com/firefly-cpp/NiaAML/tree/2.2.0) (2025-12-04)
+
+[Full Changelog](https://github.com/firefly-cpp/NiaAML/compare/2.1.2...2.2.0)
+
+**Fixed bugs:**
+
+- Deprecations [\#98](https://github.com/firefly-cpp/NiaAML/issues/98)
+
+**Merged pull requests:**
+
+- Fix compatibility with scikit-learn 1.8+ [\#99](https://github.com/firefly-cpp/NiaAML/pull/99) ([stratakis](https://github.com/stratakis))
+
+## [2.1.2](https://github.com/firefly-cpp/NiaAML/tree/2.1.2) (2025-01-23)
+
+[Full Changelog](https://github.com/firefly-cpp/NiaAML/compare/2.1.1...2.1.2)
+
+## [2.1.1](https://github.com/firefly-cpp/NiaAML/tree/2.1.1) (2025-01-12)
+
+[Full Changelog](https://github.com/firefly-cpp/NiaAML/compare/2.1.0...2.1.1)
+
+**Implemented enhancements:**
+
+- Data squashing [\#89](https://github.com/firefly-cpp/NiaAML/issues/89)
+
+## [2.1.0](https://github.com/firefly-cpp/NiaAML/tree/2.1.0) (2024-06-12)
+
+[Full Changelog](https://github.com/firefly-cpp/NiaAML/compare/2.0.0...2.1.0)
+
+**Implemented enhancements:**
+
+- Provide CLI for easier interaction with NiaAML [\#84](https://github.com/firefly-cpp/NiaAML/issues/84)
+
+**Closed issues:**
+
+- \[TASK\] remove `README.rst` [\#95](https://github.com/firefly-cpp/NiaAML/issues/95)
+- Installation instructions [\#90](https://github.com/firefly-cpp/NiaAML/issues/90)
+
+**Merged pull requests:**
+
+- 🧑‍💻added `niaaml` CLI [\#97](https://github.com/firefly-cpp/NiaAML/pull/97) ([LaurenzBeck](https://github.com/LaurenzBeck))
+- Remove README.rst [\#96](https://github.com/firefly-cpp/NiaAML/pull/96) ([sisco0](https://github.com/sisco0))
+- 📝 added Arch Linux and Nix installation instructions to README [\#94](https://github.com/firefly-cpp/NiaAML/pull/94) ([LaurenzBeck](https://github.com/LaurenzBeck))
+
 ## [2.0.0](https://github.com/firefly-cpp/NiaAML/tree/2.0.0) (2024-04-23)
 
 [Full Changelog](https://github.com/firefly-cpp/NiaAML/compare/1.2.0...2.0.0)
