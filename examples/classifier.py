@@ -19,7 +19,7 @@ data_reader = CSVDataReader(
 classifier = AdaBoost()
 
 # set parameters of the classifier
-classifier.set_parameters(n_estimators=50, algorithm="SAMME")
+classifier.set_parameters(n_estimators=50)
 
 # fit classifier to the data
 classifier.fit(data_reader.get_x(), data_reader.get_y())

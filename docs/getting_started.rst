@@ -181,8 +181,7 @@ In NiaAML there are two types of optimization. Goal of the first type is to find
 .. code:: python
 
     self._params = dict(
-        n_estimators = ParameterDefinition(MinMax(min=10, max=111), np.uint),
-        algorithm = ParameterDefinition(['SAMME', 'SAMME.R'])
+        n_estimators = ParameterDefinition(MinMax(min=10, max=111), np.uint)
     )
 
 An individual in the second type of optimization is a real-valued vector that has a size equal to the sum of number of keys in all three dictionaries (classifier's _params, feature transformation algorithm's _params and feature selection algorithm's _params) and a value of each dimension is in range [0.0, 1.0]. The second type of optimization maps real values from the individual's vector to those parameter definitions in the dictionaries. Each parameter's value can be defined as a range or array of values. In the first case, a value from vector is mapped from one iterval to another and in the second case, a value from vector falls into one of the bins that represent an index of the array that holds possible parameter's values.
