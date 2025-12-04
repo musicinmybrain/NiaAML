@@ -172,8 +172,7 @@ In the modifier version of NiaAML optimization process there are two types of op
 
 ```python
 self._params = dict(
-    n_estimators = ParameterDefinition(MinMax(min=10, max=111), np.uint),
-    algorithm = ParameterDefinition(['SAMME', 'SAMME.R'])
+    n_estimators = ParameterDefinition(MinMax(min=10, max=111), np.uint)
 )
 ```
 

@@ -51,9 +51,8 @@ class AdaBoost(Classifier):
 
         self._params = dict(
             n_estimators=ParameterDefinition(MinMax(min=10, max=111), np.uint),
-            algorithm=ParameterDefinition(["SAMME"]),
         )
-        self.__ada_boost = AdaBoostClassifier(algorithm='SAMME')
+        self.__ada_boost = AdaBoostClassifier()
 
     def set_parameters(self, **kwargs):
         r"""Set the parameters/arguments of the algorithm."""
