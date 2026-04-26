@@ -1,12 +1,11 @@
 """🧑‍💻 command line interface for NiaAML"""
 
 from pathlib import Path
-from typing import Optional
+from typing import Annotated, Optional
 
 from loguru import logger
 import pandas as pd
 import typer
-from typing_extensions import Annotated
 
 from niaaml import PipelineOptimizer, Pipeline
 from niaaml.data.csv_data_reader import CSVDataReader
